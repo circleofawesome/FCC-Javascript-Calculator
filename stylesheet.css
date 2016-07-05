@@ -2,20 +2,6 @@ body{
 	background-color: #090909;
 }
 
-.top-buffer{
-	height: 30%;
-	background-color: #090909;
-}
-
-.bottom-buffer{
-	height: 30%;
-	background-color: #090909;
-}
-
-input{
-	text-align: right;
-}
-
 .btn{
 	font-size: 40px;
 	color: #090909;
@@ -23,4 +9,16 @@ input{
 table{
 	border-collapse: separate;
 	border-spacing: 10px;
+}
+
+.numbers{
+	text-align: center;
+	font-size: 150px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.operations{
+	text-align: center;
+	font-size: 75px;
+	font-family: 'Orbitron', sans-serif;	
 }
