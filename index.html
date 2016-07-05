@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<script src="script.js"></script>
 		<title>Javascript Calculator</title>
 	</head>
@@ -10,10 +10,49 @@
 			<div class="row top-buffer"></div>
 			<div class="row">
 				<div class="col-md-3"></div>
-				<div class="col-md-6"></div>
+				<div class="col-md-6 calculator-box">
+					<div class="row top-calc-buffer">
+						<div class="col-md-12"></div>
+					</div>
+					<div class="row text-box">
+						<div class="col-md-12">
+							<input type="text" id="inputField">
+						</div>
+					</div>
+					<div class="row middle-calc-buffer">
+						<div class="col-md-12"></div>
+					</div>
+					<div class="row button-box">
+						<div class="col-md-12">
+							<table>
+								<tr>
+									<td><button type="button" class="btn btn-warning btn-lg">7</button></td>
+									<td><button type="button" class="btn btn-warning btn-lg">8</button></td>
+									<td><button type="button" class="btn btn-warning btn-lg">9</button></td>
+								</tr>
+								<tr>
+									<td><button type="button" class="btn btn-warning btn-lg">4</button></td>
+									<td><button type="button" class="btn btn-warning btn-lg">5</button></td>
+									<td><button type="button" class="btn btn-warning btn-lg">6</button></td>
+								</tr>
+								<tr>
+									<td><button type="button" class="btn btn-warning btn-lg">1</button></td>
+									<td><button type="button" class="btn btn-warning btn-lg">2</button></td>
+									<td><button type="button" class="btn btn-warning btn-lg">3</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="row bottom-calc-buffer">
+						<div class="col-md-12"></div>
+					</div>
+				</div>
 				<div class="col-md-3"></div>
 			</div>
-			<div class="row bottom-buffer"></div>
+			<div class="row">
+				<div class="col-md-12 bottom-buffer"></div>
+			</div>
 		</div>
 	</body>
 </html>
+
