@@ -20,3 +20,7 @@ input{
 	font-size: 40px;
 	color: #090909;
 }
+table{
+	border-collapse: separate;
+	border-spacing: 10px;
+}
