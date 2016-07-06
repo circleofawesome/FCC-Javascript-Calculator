@@ -3,3 +3,10 @@ function calculateString(str){
 	return eval(str);
 }
 
+var input="";
+
+function inputUpdate(num){
+	//return input+=num;
+	console.log(input+=num);
+}
+
