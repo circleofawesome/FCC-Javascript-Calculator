@@ -2,3 +2,4 @@
 function calculateString(str){
 	return eval(str);
 }
+
