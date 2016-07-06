@@ -1,10 +1,12 @@
 body{
-	background-color: #090909;
+	background-color:  #1D1D1D;
 }
 
 .btn{
 	font-size: 40px;
 	color: #090909;
+	background-color:  #E35218;
+	border-color:  #E35218;
 }
 table{
 	border-collapse: separate;
@@ -27,6 +29,7 @@ table{
 	text-align: center;
 	font-size: 175px;
 	font-family: 'Orbitron', sans-serif;
+	color: #CBCBCB;
 }
 
 .calculator{
