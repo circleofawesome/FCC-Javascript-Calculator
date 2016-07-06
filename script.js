@@ -1,7 +1,7 @@
 var input="";
 
 function inputEquals(){
-	if(input[0].match(/[0-9]/)===null){
+	if(input[0].match(/[0-9]|[.]/)===null){
 		input="";
 		return document.getElementById("inputField").innerHTML="0";
 	}
